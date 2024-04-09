@@ -1,5 +1,6 @@
 import sys
 import os
+os.path.join = lambda *s: "/".join(s)
 import json
 import time
 import warnings
